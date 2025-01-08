@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.env
+.build/
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# AWS Credentials
+*.csv
+.aws/
+.aws-credentials
+
+# Logs
+*.log
+*.out
+*.err
+nohup.out
+logs/
+
+# Virtual environment
+.venv/
+.env/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest cache
+test/__pycache__/
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# AWS Specific
+.aws-sam/
+.localstack/
+.cloudformation/
+*.pem
+*.key
+
+# Docker
+Dockerfile
+*.dockerignore
+docker-compose.yml
+.docker/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+
+# Environment Variables
+.env
+*.env
+
+# Security and Secrets
+secrets.json
+config.json
+.key
